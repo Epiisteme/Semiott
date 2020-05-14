@@ -1,0 +1,24 @@
+{
+  "inputs": [
+    {
+      "name": "login_id",
+      "public": true,
+      "type": "field"
+    },
+    {
+      "name": "random_id",
+      "public": false,
+      "type": "field"
+    },
+    {
+      "name": "seed_id",
+      "public": false,
+      "type": "field"
+    }
+  ],
+  "outputs": [
+    {
+      "type": "field"
+    }
+  ]
+}

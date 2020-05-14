@@ -1,0 +1,5 @@
+
+def main(public field login_id, private field random_id, private field seed_id) -> (field):
+  field AuthProof = random_id * seed_id
+  login_id == AuthProof
+  return 1
