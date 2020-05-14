@@ -1,0 +1,19 @@
+{
+  "inputs": [
+    {
+      "name": "dataOwnerID",
+      "public": false,
+      "type": "field"
+    },
+    {
+      "name": "dataUserID",
+      "public": true,
+      "type": "field"
+    }
+  ],
+  "outputs": [
+    {
+      "type": "field"
+    }
+  ]
+}

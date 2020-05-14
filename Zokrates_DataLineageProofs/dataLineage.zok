@@ -1,0 +1,3 @@
+def main(private field dataOwnerID, field dataUserID) -> (field):
+	field LineageProof = if dataUserID == dataOwnerID then 1 else 0 fi
+	return LineageProof
