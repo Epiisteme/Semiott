@@ -1,5 +1,5 @@
-# Semiott is a Cryptographic Collective for Succint Social Interactions.
-Semiott Protocol is a collection of Digital Identity Proofs written using Zokrates based ZK-SNARK based Arithmetic Circuits
+# Semiott Protocol
+Semiott Protocol is a Cryptographic Collective for Succinct Social Interactions and Smart Contracts in the Post Pandemic Political Economy. Semiott Protocol is an evolving collection of Digital Identity Proofs written using Zokrates based ZK-SNARK based Arithmetic Circuits
 
 # List of Proofs
 
