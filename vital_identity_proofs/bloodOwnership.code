@@ -1,0 +1,8 @@
+def main(field DonorDate, field DonorPlace, field DonorAmount, private field DonorID, private field BloodType) -> (field) :
+    field a = if DonorDate == 01062020 then 1 else 0 fi
+    field b = if DonorPlace == 6697110103108111114101 then 1 else 0 fi
+    field c = if DonorAmount == 25000 then 1 else 0 fi
+    field d = a*b*c
+    field e = if d*DonorID*BloodType == 979845 then 1 else 0 fi
+    return e
+
