@@ -1,8 +1,7 @@
-def main(field DonorDate, field DonorPlace, field DonorAmount, private field DonorID, private field BloodType) -> (field) :
-    field a = if DonorDate == 01062020 then 1 else 0 fi 
-    field b = if DonorPlace == 6697110103108111114101 then 1 else 0 fi
-    field c = if DonorAmount == 25000 then 1 else 0 fi
-    field d = a*b*c
+def main(field DonorPlace, field DonorAmount, private field DonorID, private field BloodType) -> (field) :
+    field a = if DonorPlace == 6697110103108111114101 then 1 else 0 fi
+    field b = if DonorAmount == 25000 then 1 else 0 fi
+    field c = a*b
     field o1 = if BloodType == 11143 then 1 else 0 fi
     field o0 = if BloodType == 11145 then 1 else 0 fi
     field a1 = if BloodType == 9743 then 1 else 0 fi
@@ -12,6 +11,6 @@ def main(field DonorDate, field DonorPlace, field DonorAmount, private field Don
     field ab1 = if BloodType == 989743 then 1 else 0 fi
     field ab0 = if BloodType == 989745 then 1 else 0 fi
     field blood = o1 + o0 + a1 + a0 + b1 + b0 + ab1 + ab0
-    field e = if d*DonorID*blood == DonorID then 1 else 0 fi
+    field e = if c*DonorID*blood == DonorID then 1 else 0 fi
     return e
 
