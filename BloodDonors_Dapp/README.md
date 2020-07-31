@@ -66,3 +66,12 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `yarn build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+### About the Code 
+
+The BloodBank is an open-source blood donorship platform running on Blockchain. Once the Donor registers and uploads a consent form (the website provides a consent form to be filled and submitted by each donor while registering), we verify the donor registeration using Zero-Knowledge Proof and return the hash (using SHA256) of the consent form to the donor, to be later used as a credential for login. Only the Doctors' and patients' successful login displays the donor details (ID, BLoodType, Place), however a Donor login allows the donor to be able to access and modify only his/her details. We establish this anonymous Blood Donorship Bank by encrypting the Donor Blood Type for our backend with its viewing details to be decrypted only for doctors and patients who finally determine the donor selection in this blood-bank. 
+
+
+
+
+
